@@ -107,9 +107,6 @@ curl -X POST http://127.0.0.1:8000/pdf/ask/ -H "Content-Type: application/json" 
 ## Frontend Components (Client)
 
 - **`App.jsx`:**  The main component that renders the application layout.
-- **`FileUpload.jsx`:** Handles PDF file uploads.
-- **`QuestionInput.jsx`:**  Allows the user to input questions.
-- **`AnswerDisplay.jsx`:** Displays the answers from the backend.
 - **`Chats.jsx`:** Manages the chat history.
 - **`Messager.jsx`:** Handles the user's message input.
 - **`NavBar.jsx`:** Provides navigation and actions related to the uploaded PDF.
@@ -137,14 +134,3 @@ curl -X POST http://127.0.0.1:8000/pdf/ask/ -H "Content-Type: application/json" 
 * This setup is optimized for development. For production, consider:
   * Building the frontend for production (`npm run build` or `yarn build`)
   * Deploying both frontend and backend to a suitable hosting environment.
-
-Let me know if you have any other questions!
-
-**Key Changes:**
-
-* **Combined Instructions:**  The README now includes steps for setting up and running both the frontend and backend.
-* **Frontend Components:**  A brief overview of the main frontend components is provided.
-* **Usage Instructions:**  Clear steps on how to use the application are added.
-* **Production Notes:**  Recommendations for production deployment are included.
-
-Remember to replace `your-repository-url` with the actual URL of your project's Git repository if you're planning to share it with others.
